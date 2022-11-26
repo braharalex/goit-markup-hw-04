@@ -375,6 +375,45 @@ img {
     fill: currentColor;
 }
 
+/* Постійні клієнти  */
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-icon-color);
+    border-radius: 4px;
+
+    color: var(--primary-icon-color);
+}
+
+
+.clients-link:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.clients-icon {
+    fill: currentColor;
+}
+
+
 
 
 /* Футер */
